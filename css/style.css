@@ -1,0 +1,20 @@
+#services{
+    margin-top: 900px;
+}
+
+#intro{
+margin: 400px 0px 620px 0px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#chartdiv {
+    width		: 100%;
+    height		: 435px;
+    font-size	: 11px;
+}
+
+header{
+    background: url("../img/header.jpg") center no-repeat;
+}
+
