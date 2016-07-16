@@ -1,0 +1,4 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteRule /protfoliopublic_html/test.html
+# </IfModule>
