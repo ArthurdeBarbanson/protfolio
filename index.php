@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Arthur de Barbanson">
+        <link rel="icon" href="img/agt-web-icone-4367.ico" />
 
         <title>Arthur de Barbanson</title>
 
@@ -15,14 +16,6 @@
         <!-- Custom CSS -->
         <link href="css/agency.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-
-        <!-- Custom Fonts -->
-    <!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
-    <!--    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">-->
-    <!--    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>-->
-    <!--    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
-    <!--    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
-
     </head>
     <body id="page-top" class="index">
         <!-- Navigation -->
@@ -39,26 +32,21 @@
         </header>
 
         <!-- Compétences -->
-        <?php include_once('competence.html');  ?>
+        <?php
+        include_once('competence.html');
 
+         include_once('portfolio.html');
 
-        <?php include_once('portfolio.html');  ?>
+//         parcours
+         include_once('parcours.html');
 
+//        Activité
+        include_once('activite.html');
 
-        <!-- parcours-->
-        <?php include_once('parcours.html');  ?>
-
-        <!--Activité -->
-        <?php include_once('activite.html');  ?>
-
-        <!--Contact-->
-        <?php include_once('contact.html');  ?>
-        <?php include_once('footer.html');  ?>
-        <?php include_once('modal.html');  ?>
-
-
-
-
+//        Contact
+         include_once('contact.html');
+         include_once('footer.html');
+         include_once('modal.html'); ?>
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
@@ -68,8 +56,6 @@
 
         <!-- Plugin JavaScript -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
 
         <!-- Contact Form JavaScript -->
         <script src="js/jqBootstrapValidation.js"></script>
@@ -77,10 +63,9 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/agency.js"></script>
-        <script src="js/chart.js"></script>
 
-        <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-        <script src="https://www.amcharts.com/lib/3/serial.js"></script>
-        <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<!--        svg3DTagCloud -->
+        <script src="js/jquery.svg3dtagcloud.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
