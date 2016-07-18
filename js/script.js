@@ -14,6 +14,7 @@ $(function(){
         { label: 'Ajax' , url: '#competence'},
         { label: 'MySQL' , url: '#competence'},
         { label: 'Github' , url: '#competence'},
+        { label: 'Subversion' , url: '#competence'},
         { label: 'UML' , url: '#competence'},
         { label: 'Anglais' , url: '#competence'},
         { label: 'WordPress' , url: '#competence'},
@@ -25,7 +26,6 @@ $(function(){
     ];
 
     var settings = {
-
         entries: entries,
         width: 580,
         height: 580,
@@ -41,7 +41,7 @@ $(function(){
         fov: 800,
         speed: 1.5,
         fontFamily: 'Oswald, Arial, sans-serif',
-        fontSize: '15px',
+        fontSize: '25px',
         fontColor: '#111',
         fontWeight: 'normal',
         fontStyle: 'normal',
