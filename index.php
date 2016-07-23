@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Arthur de Barbanson">
-        <link rel="icon" href="img/agt-web-icone-4367.ico" />
+        <link rel="icon" href="images/agt-web-icone-4367.ico" />
 
         <title>Arthur de Barbanson</title>
 
@@ -35,13 +35,11 @@
         <?php
         include_once('competence.html');
 
-         include_once('portfolio.html');
 
 //         parcours
          include_once('parcours.html');
 
-//        Activité
-        include_once('activite.html');
+        include_once('portfolio.html');
 
 //        Contact
          include_once('contact.html');

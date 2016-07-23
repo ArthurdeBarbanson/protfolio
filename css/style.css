@@ -5,14 +5,14 @@ margin: 400px 0px 620px 0px;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.8);
 
-    animation: fadein 5s;
-    -moz-animation: fadein 5s; /* Firefox */
-    -webkit-animation: fadein 5s; /* Safari et Chrome */
-    -o-animation: fadein 5s; /* Opera */
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
 }
 
 header{
-    background: url("../img/header.jpg") center no-repeat;
+    background: url("../images/header.jpg") center no-repeat;
 }
 
 @keyframes fadein {
@@ -27,3 +27,14 @@ header{
 @-o-keyframes fadein { /* sur Opera */
     from {  opacity:0;  } to {  opacity: 1;  }
 }
+
+#carousel-portfolio{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#carousel-portfolio img{
+    height: 250px;
+}
+
