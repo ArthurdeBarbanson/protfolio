@@ -40,6 +40,7 @@
          include_once('parcours.html');
 
         include_once('portfolio.html');
+        include_once('activite.html');
 
 //        Contact
          include_once('contact.html');

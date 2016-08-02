@@ -1,4 +1,4 @@
-#<IfModule mod_rewrite.c>
-#    RewriteEngine On
-#    RewriteRule /protfoliopublic_html/test.html
-# </IfModule>
+AuthUserFile /var/www/html/protfolio/.htpasswd
+AuthName "Accès protégé"
+AuthType Basic
+Require valid-user
