@@ -14,6 +14,19 @@ margin: 400px 0px 620px 0px;
 header{
     background: url("../images/header.jpg") center no-repeat;
 }
+#Erreur-404{
+    opacity: 0.3;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
 
 @keyframes fadein {
     from {  opacity:0;  } to {  opacity:1;  }
