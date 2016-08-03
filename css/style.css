@@ -1,7 +1,7 @@
 
 
 #intro{
-margin: 400px 0px 620px 0px;
+margin: 400px 0 620px 0;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.8);
 
@@ -15,19 +15,23 @@ header{
     background: url("../images/header.jpg") center no-repeat;
 }
 #Erreur-404{
-
+width: 100%;
 }
 
-.center {
+#image-center {
     position: absolute;
     top: 10%;
-    text-align: center;
+    left: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
     /*color: #ffffff;*/
     font-size: 500px;
 
 }
 
-.center span p#404{
+#image-center #404{
+    font-size: 500px;
 }
 
 
@@ -54,3 +58,9 @@ header{
     height: 250px;
 }
 
+#page-404{
+    background: url("../images/erreurs/road-sign-464659_1920.jpg") center no-repeat;
+}
+#404{
+    font-size: 200pt;
+}

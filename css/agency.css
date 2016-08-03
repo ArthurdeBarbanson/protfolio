@@ -496,10 +496,7 @@ aside.clients img {
     margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../images/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
+    background: #222222 url('') no-repeat center;
 }
 section#contact .section-heading {
     color: #fff;
@@ -557,14 +554,12 @@ footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
+    text-transform: none;
 }
 ul.social-buttons {
   margin-bottom: 0;
@@ -662,7 +657,4 @@ img::selection {
 }
 img::-moz-selection {
   background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #485afe;;
 }
