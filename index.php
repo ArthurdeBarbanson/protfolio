@@ -7,12 +7,10 @@
         <meta name="description" content="">
         <meta name="author" content="Arthur de Barbanson">
         <link rel="icon" href="images/agt-web-icone-4367.ico" />
-
         <title>Arthur de Barbanson</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-
         <!-- Custom CSS -->
         <link href="css/agency.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -31,21 +29,13 @@
             </div>
         </header>
 
-        <!-- Compétences -->
         <?php
         include_once('competence.html');
-
-
-//         parcours
-         include_once('parcours.html');
-
+        include_once('parcours.html');
         include_once('portfolio.html');
-        include_once('activite.html');
-
-//        Contact
-         include_once('contact.html');
-         include_once('footer.html');
-         include_once('modal.html'); ?>
+        include_once('contact.html');
+        include_once('footer.html');
+        ?>
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
@@ -62,9 +52,4 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/agency.js"></script>
-
-<!--        svg3DTagCloud -->
-        <script src="js/jquery.svg3dtagcloud.min.js"></script>
-        <script src="js/script.js"></script>
-    </body>
 </html>
