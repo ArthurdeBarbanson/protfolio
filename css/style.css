@@ -63,9 +63,9 @@ header{
 }
 
 .image_competences{
-    width: 100px;
-    height: 100px;
-    margin-left: 50%;
-    margin-right: 50%;
+    width: 150px;
+    height: 150px;
+    /*margin-left: 50%;*/
+  /*  margin-right: 50%;*/
     margin-bottom: 15px;
 }
