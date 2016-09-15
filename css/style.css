@@ -13,6 +13,10 @@ margin: 350px 0 350px 0;
 
 header{
     background: url("../images/header.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 @keyframes fadein {
     from {  opacity:0;  } to {  opacity:1;  }
@@ -62,10 +66,46 @@ header{
     height: 250px;
 }
 
+/* compétences **/
+
 .image_competences{
     width: 150px;
     height: 150px;
-    /*margin-left: 50%;*/
-  /*  margin-right: 50%;*/
-    margin-bottom: 15px;
+    margin:auto;
+}
+
+.block-image{
+    position: relative;
+    padding:10px;
+    margin:5px;
+    text-align: center;
+
+}
+
+.text-hover p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    opacity: 0;
+
+}
+
+.block-image:hover .image_competences{
+    opacity: 0.5;
+}
+.block-image:hover .text-hover p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: block;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all 1s ease-in-out;
+}
+
+.block-image:hover{
+    background-color: rgba(75,75,75,0.7);
+    -webkit-transition: all 1s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all 1s ease-in-out;
+
 }
