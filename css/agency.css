@@ -363,7 +363,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #485afe;;
+  background-color: #485afe;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -514,7 +514,7 @@ section#contact .form-group textarea.form-control {
     height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #485afe;;
+  border-color: #485afe;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -581,7 +581,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #485afe;;
+  background-color: #485afe;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
