@@ -91,11 +91,11 @@ header{
 
 .text-heading{
     left: 40%;
-    top: 40%;
+    top: 30%;
 }
 .text-subheading{
-    left: 30%;
-    top: 60%;
+    left: 20%;
+    top: 50%;
 }
 
 .block-image:hover .image_competences{
