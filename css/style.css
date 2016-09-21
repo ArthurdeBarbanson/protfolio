@@ -109,12 +109,11 @@ header{
 }
 
 .block-image:hover{
-    background-color: #222222;
     background-color: #485afe;
-
-
-
     -webkit-transition: all 1s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: all 1s ease-in-out;
+}
 
+#mention_legal{
+    padding-top: 50px;
 }
