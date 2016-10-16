@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <?php include_once('head.html')?>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Arthur de Barbanson, développeur web. Vous trouverez mes compétences, mon parcours, mes projets réalisés et mon CV">
+    <meta name="keyword" content="Arthur de Barbanson, développeur web, Université lyon1 Claude Bernard, DUT informatque, licence professionnelle METINET, EPSI">
+    <meta name="author" content="Arthur de Barbanson">
+    <link rel="icon" href="images/agt-web-icone-4367.ico" />
+    <title>Arthur de Barbanson</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
     <body id="page-top" class="index">
         <!-- Navigation -->
         <?php include_once('menu.html');  ?>
@@ -22,7 +37,20 @@
         include_once('contact.html');
         include_once('footer.html');
         ?>
-
-      <?php include_once('script.html')?>
     </body>
+   <!-- jQuery -->
+   <script src="js/jquery.js"></script>
+
+   <!-- Bootstrap Core JavaScript -->
+   <script src="js/bootstrap.min.js"></script>
+
+   <!-- Plugin JavaScript -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+   <!-- Contact Form JavaScript -->
+   <script src="js/jqBootstrapValidation.js"></script>
+   <script src="js/contact_me.js"></script>
+
+   <!-- Custom Theme JavaScript -->
+   <script src="js/agency.js"></script>
 </html>
